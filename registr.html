@@ -55,22 +55,24 @@
 			</div>
 			<div class="date">
 				<label for="regsurdate" class="reg__surname">Дата рождения</label>
-				<input minlength="1" required tabindex="7" id="regsurdate" autocomplete="off" type="date" value="дд.10.2020"
+				<input  required tabindex="7" id="regsurdate" autocomplete="off" type="date" value="11.10.2020"
 					name="form[]"
 					data-error="Ошибка" data-value=""
 					class="reg__input date__inp">
 			</div>
 
 			<div class="radio1">
-				<input tabindex="8" id="regradio1" autocomplete=" off" type="radio" name="form[]" data-error="Ошибка" data-value=""
+				<input tabindex="8" id="regradio1" type="radio" name="form[]" data-error="Ошибка" data-value=""
 					class="reg__radio">
-				<label tabindex="8" for="regradio1" class="reg__radio1">Мужчина</label>
+				<label tabindex="8" for="regradio1" class="reg__radio1">
+					Мужчина</label>
 			</div>
 
 			<div class="radio2">
-				<input tabindex="9" id="regradio2" autocomplete="off" type="radio" name="form[]" data-error="Ошибка" data-value=""
+				<input tabindex="9" id="regradio2"  type="radio" name="form[]" data-error="Ошибка" data-value=""
 					class="reg__radio0">
-				<label tabindex="9" for="regradio2"" class=" reg__radio2">Женщина</label>
+				<label tabindex="9" for="regradio2" class="reg__radio2">
+					Женщина</label>
 			</div>
 
 			<div class="sity">
@@ -80,8 +82,8 @@
 			</div>
 
 			<div class="counry">
-				<label for="" class="reg__country">Страна</label>
-				<select tabindex="10" name="form[]" class="reg__counry">
+				<label for="regcount" class="reg__country">Страна</label>
+				<select id="regcount" tabindex="10" name="form[]" class="reg__counry">
 					<option value="1" selected="selected">Пункт №1</option>
 					<option value="2">Пункт №2</option>
 					<option value="3">Пункт №3</option>
@@ -94,8 +96,8 @@
 			</div>
 
 			<div class="file">
-				<label for="" class="filelabel">Выберете файл</label>
-				<input autocomplete="off" type="file" name="form[]" data-error="Ошибка" data-value="" class="fileinput">
+				<label for="fille" class="filelabel">Выберете файл</label>
+				<input id="fille"  type="file" name="form[]" data-error="Ошибка" data-value="" class="fileinput">
 			</div>
 
 			<div class="btnn">
@@ -108,8 +110,8 @@
 			</div>
 
 			<div class="info">
-				<input tabindex="11" id="reginfo" autocomplete="off" type="checkbox" name="form[]" data-error="Ошибка" data-value="" class="reg__cheked">
-				<label minlength="1" required tabindex="11" for="reginfo" class="reg__chek">
+				<input tabindex="11" id="reginfo" type="checkbox" name="form[]" data-error="Ошибка" data-value="" class="reg__cheked">
+				<label  tabindex="11" for="reginfo" class="reg__chek">
 					Я согласен на проверку данных <a href="#" class="reg__link">Условия и правила</a>
 				</label>
 			</div>
